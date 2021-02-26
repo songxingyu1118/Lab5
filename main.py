@@ -1,5 +1,5 @@
 name = input("what is your name")
-age = input("what is your age")
+age = int(input("what is your age"))
 
 if age > 90:
     print("hi", name, "youre old")
